@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import ExercicioJSX from "./ExercicioJSX";
+// Aulas
+import ExercicioJSX from "./aulas/ExercicioJSX";
+import JSXArrays from "./aulas/JSXArrays";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ExercicioJSX />
+    {/* <ExercicioJSX /> */}
+    <JSXArrays />
   </React.StrictMode>
 );
