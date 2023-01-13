@@ -35,10 +35,8 @@ const ExercicioJSX = () => {
 
   return (
     <>
-      <h1>Meu App React</h1>
+      <h2>Exercício JSX</h2>
       <hr />
-      <h3>Exercício JSX</h3>
-
       <div>
         <p>
           <span style={spanDestaque}>Nome: </span>
