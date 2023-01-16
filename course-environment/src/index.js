@@ -5,11 +5,12 @@ import ReactDOM from "react-dom/client";
 import ExercicioJSX from "./aulas/ExercicioJSX";
 import JSXArrays from "./aulas/JSXArrays";
 import ExercicioJSXArrays from "./aulas/ExercicioJSXArrays";
-import Header from "./aulas/components/02-10-Components/Header";
-import Footer from "./aulas/components/02-10-Components/Footer";
-import Form from "./aulas/components/02-10-Components/Form/Form";
+import Header from "./aulas/componentes/02-10-Components/Header";
+import Footer from "./aulas/componentes/02-10-Components/Footer";
+import Form from "./aulas/componentes/02-10-Components/Form/Form";
 import Titulo from "./aulas/props/Titulo";
 import FormProps from "./aulas/props/FormProps";
+import Challenge from "./aulas/componentes/Challenge";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -34,8 +35,11 @@ root.render(
         <p>Passando um elemento "P" HTML por Children.</p>
       </Titulo>
     </> */}
-    <>
+    {/* <>
       <FormProps />
-    </>
+    </> */}
+
+    {/* Challenge */}
+    <Challenge />
   </React.StrictMode>
 );
