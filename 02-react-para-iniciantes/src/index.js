@@ -1,30 +1,37 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// Aulas
-import ExercicioJSX from "./aulas/ExercicioJSX";
-import JSXArrays from "./aulas/JSXArrays";
-import ExercicioJSXArrays from "./aulas/ExercicioJSXArrays";
-import Header from "./aulas/componentes/02-10-Components/Header";
-import Footer from "./aulas/componentes/02-10-Components/Footer";
-import Form from "./aulas/componentes/02-10-Components/Form/Form";
-import Titulo from "./aulas/props/Titulo";
-import FormProps from "./aulas/props/FormProps";
-import Challenge from "./aulas/componentes/Challenge";
+// AULAS
+// JSX
+import ExercicioJSX from "./aulas/JSX/ExercicioJSX";
+import JSXArrays from "./aulas/JSX/JSXArrays";
+import ExercicioJSXArrays from "./aulas/JSX/ExercicioJSXArrays";
+
+// 02-10-components
+import Header from "./aulas/02-10-componentes/Header";
+import Footer from "./aulas/02-10-componentes/Footer";
+import Form from "./aulas/02-10-componentes/Form/Form";
+import DesafioComponentes from "./aulas/02-10-componentes/DesafioComponentes";
+
+// 02-11-propriedades
+import Titulo from "./aulas/02-11-propriedades/Titulo";
+import FormProps from "./aulas/02-11-propriedades/FormProps";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    {/* JSX */}
     {/* <ExercicioJSX /> */}
     {/* <JSXArrays /> */}
     {/* {<ExercicioJSXArrays />} */}
 
-    {/* Components */}
+    {/* Componentes */}
     {/* <>
       <Header />
       <Form />
       <Footer />
     </> */}
+    {/* <DesafioComponentes /> */}
 
     {/* Props */}
     {/* <>
@@ -38,8 +45,5 @@ root.render(
     {/* <>
       <FormProps />
     </> */}
-
-    {/* Challenge */}
-    <Challenge />
   </React.StrictMode>
 );
