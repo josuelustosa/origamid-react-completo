@@ -1,4 +1,5 @@
 import React from "react";
+import Titulo from "../components/Titulo";
 
 const vitoria = {
   cliente: "Vitória",
@@ -34,8 +35,8 @@ const ExercicioJSX = () => {
   };
 
   return (
-    <>
-      <h2>Exercício JSX</h2>
+    <section>
+      <Titulo texto="Exercicio: JSX" />
       <hr />
       <div>
         <p>
@@ -62,7 +63,7 @@ const ExercicioJSX = () => {
           )}
         </p>
       </div>
-    </>
+    </section>
   );
 };
 

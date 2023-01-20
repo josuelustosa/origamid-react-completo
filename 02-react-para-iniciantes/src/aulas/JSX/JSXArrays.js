@@ -1,4 +1,5 @@
 import React from "react";
+import Titulo from "../components/Titulo";
 
 const JSXArrays = () => {
   const livros = [
@@ -8,15 +9,21 @@ const JSXArrays = () => {
   ];
 
   return (
-    <ul>
-      {livros
-        .filter(({ ano }) => ano >= 1998)
-        .map(({ nome, ano }) => (
-          <li key={nome}>
-            {nome}, {ano}
-          </li>
-        ))}
-    </ul>
+    <section>
+      <Titulo texto="JSX: Arrays" />
+
+      <hr />
+
+      <ul>
+        {livros
+          .filter(({ ano }) => ano >= 1998)
+          .map(({ nome, ano }) => (
+            <li key={nome}>
+              {nome}, {ano}
+            </li>
+          ))}
+      </ul>
+    </section>
   );
 };
 

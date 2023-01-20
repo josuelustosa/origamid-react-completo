@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "./components/Header";
-import Home from "./components/Home";
+import HomeDeComponentes from "./components/Home";
 import Produtos from "./components/Produtos";
 
-const Challenge = () => {
+const DesafioComponentes = () => {
   // Replique a interface como a apresentada na aula
   // Utilize a array abaixo para mostrar os produtos
   // Quebre em componentes o que precisar ser reutilizado
@@ -11,11 +11,10 @@ const Challenge = () => {
 
   const { pathname } = window.location;
 
-  let ComponentSelected;
-  if (pathname === "/Produtos") {
+  let ComponentSelected = HomeDeComponentes;
+
+  if (pathname === "/DesafioComponentes/Produtos") {
     ComponentSelected = Produtos;
-  } else {
-    ComponentSelected = Home;
   }
 
   return (
@@ -26,4 +25,4 @@ const Challenge = () => {
   );
 };
 
-export default Challenge;
+export default DesafioComponentes;
