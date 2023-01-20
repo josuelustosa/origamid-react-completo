@@ -1,4 +1,5 @@
 import React from "react";
+import Titulo from "../components/Titulo";
 
 const ExercicioJSXArrays = () => {
   const produtos = [
@@ -36,7 +37,8 @@ const ExercicioJSXArrays = () => {
 
   return (
     <section>
-      <h2>Array de Objetos</h2>
+      <Titulo texto="Array de Objetos" />
+
       <hr />
 
       <div>
