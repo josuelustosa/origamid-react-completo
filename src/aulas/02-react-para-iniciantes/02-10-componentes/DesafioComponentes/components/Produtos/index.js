@@ -9,7 +9,7 @@ import { PRODUTOS } from "../../mock/produtos.mock";
 const Produtos = () => {
   return (
     <div>
-      <Titulo text="Produtos" />
+      <Titulo texto="Produtos" />
       <p>Confira a seguir nossos produtos.</p>
       <table id="customers">
         <tr>

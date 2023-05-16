@@ -4,7 +4,7 @@ import Titulo from "../Título";
 const Home = () => {
   return (
     <div>
-      <Titulo texto="Componentes" />
+      <Titulo texto="Início - Componentes" />
       <p>
         {`Clique `}
         <a href="/DesafioComponentes/Produtos">aqui</a>

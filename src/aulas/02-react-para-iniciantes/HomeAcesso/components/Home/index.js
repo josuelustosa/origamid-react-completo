@@ -1,5 +1,5 @@
 import React from "react";
-import Titulo from "../../../components/Titulo";
+import Titulo from "./../../../../../components/Titulo";
 import Header from "../Header";
 
 const Home = () => {
