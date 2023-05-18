@@ -1,16 +1,22 @@
-import React from "react";
-import Titulo from "../Título";
+import React from 'react';
+import Titulo from '../Título';
 
-import "../../assets/Table.css";
+import '../../assets/Table.css';
 
 // Dados dos prdutos
-import { PRODUTOS } from "../../mock/produtos.mock";
+import { PRODUTOS } from '../../mock/produtos.mock';
 
 const Produtos = () => {
   return (
     <div>
-      <Titulo texto="Produtos" />
-      <p>Confira a seguir nossos produtos.</p>
+      <Titulo texto="Produtos - Componentes" />
+      <p>
+        Confira a seguir nossos produtos ou retorne para&nbsp;
+        <a href="/02-react-para-iniciantes/desafio-componentes">
+          Página Inicial
+        </a>
+        .
+      </p>
       <table id="customers">
         <tr>
           <th>#</th>
@@ -32,14 +38,14 @@ const Produtos = () => {
               {cor.map((cor) => (
                 <div
                   style={{
-                    width: "20px",
-                    height: "20px",
+                    width: '20px',
+                    height: '20px',
                     backgroundColor: cor,
                     border: `2.5px solid ${
-                      cor === "#ffffff" ? "#000000" : cor
+                      cor === '#ffffff' ? '#000000' : cor
                     }`,
-                    display: "inline-block",
-                    marginRight: "4px",
+                    display: 'inline-block',
+                    marginRight: '4px',
                   }}
                 ></div>
               ))}

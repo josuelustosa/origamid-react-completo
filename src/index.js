@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 // Página de Acesso que renderiza os componentes dinâmicamente
-import HomeAcesso from "./aulas/02-react-para-iniciantes/HomeAcesso";
+import PaginaInicial from "./aulas/PaginaInicial";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <HomeAcesso />
+    <PaginaInicial />
   </React.StrictMode>
 );

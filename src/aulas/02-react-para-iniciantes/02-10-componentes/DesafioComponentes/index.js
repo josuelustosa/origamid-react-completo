@@ -1,7 +1,7 @@
-import React from "react";
-import Header from "./components/Header";
-import HomeDeComponentes from "./components/Home";
-import Produtos from "./components/Produtos";
+import React from 'react';
+import Header from './components/Header';
+import HomeDeComponentes from './components/Home';
+import Produtos from './components/Produtos';
 
 const DesafioComponentes = () => {
   // Replique a interface como a apresentada na aula
@@ -13,7 +13,7 @@ const DesafioComponentes = () => {
 
   let ComponentSelected = HomeDeComponentes;
 
-  if (pathname === "/DesafioComponentes/Produtos") {
+  if (pathname === '/02-react-para-iniciantes/desafio-componentes/produtos') {
     ComponentSelected = Produtos;
   }
 

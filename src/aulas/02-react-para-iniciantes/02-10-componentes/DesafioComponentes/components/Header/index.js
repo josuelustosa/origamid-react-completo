@@ -1,14 +1,19 @@
-import React from "react";
+import React from 'react';
+import './style.css';
 
 const Header = () => {
   return (
     <header>
-      <ul>
+      <ul class="header-componentes">
         <li>
-          <a href="/DesafioComponentes/Home">Home</a>
+          <a href="/02-react-para-iniciantes/desafio-componentes">
+            Início
+          </a>
         </li>
         <li>
-          <a href="/DesafioComponentes/Produtos">Produtos</a>
+          <a href="/02-react-para-iniciantes/desafio-componentes/produtos">
+            Produtos
+          </a>
         </li>
       </ul>
     </header>

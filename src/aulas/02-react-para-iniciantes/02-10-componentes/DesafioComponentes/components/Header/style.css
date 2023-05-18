@@ -1,0 +1,11 @@
+.header-componentes {
+  display: flex;
+  padding: 0;
+}
+
+.header-componentes li {
+  /* background-color: red; */
+  margin-right: 24px;
+
+  list-style-type: none;
+}
